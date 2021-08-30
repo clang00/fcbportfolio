@@ -1,10 +1,10 @@
 * {
-	font-family: "Roboto", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	/*semicolon:  delimiter*/
 }
 
 h1, h2 {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Satisfy", sans-serif;
 }
 
 img {
@@ -13,11 +13,12 @@ img {
 }
 
 #landing {
-	height: 80vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #CAA78B;
 }
 
 .jumbotron {
@@ -25,12 +26,12 @@ img {
 }
 
 #gallery {
-	height: 75vh;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 6px;
+	background-color: #DFBDA7;
 }
 
 ul {
@@ -39,18 +40,31 @@ ul {
 }
 
 h2 {
-	color: #007bff;
+	color: #956B4D;
 }
 
 .tools {
-	padding: 25px;
+	padding: 20px;
 	height: 200px;
 	border: 5px solid #f2f2f2;
 	margin: 20px;
 	width: 75%;
-	color: white;
 }
+
 
 html {
 	scroll-behavior: smooth;
 }
+
+
+.navbar {
+	background-color: #E5CEC1;
+}
+.nav-link {
+	color: #CAA78B;
+	margin-right: 50px;
+}
+
+.nav-link:hover {
+	color: black;
+} 
